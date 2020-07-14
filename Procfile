@@ -1,1 +1,1 @@
-web: java -jar target/desafiobackend-0.0.1-SNAPSHOT.jar
+web: java -Dspring.profiles.active=prod -jar target/desafiobackend-0.0.1-SNAPSHOT.jar
